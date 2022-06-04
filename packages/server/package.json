@@ -1,0 +1,8 @@
+{
+  "name": "@tic-tac-toe-monorepo/server",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo ${PROJECT_NAME} @tic-tac-toe-monorepo/server"
+  }
+}
