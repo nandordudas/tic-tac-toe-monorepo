@@ -1,0 +1,5 @@
+# Tic Tac Toe
+
+[LICENSE]
+
+[LICENSE]: ./LICENSE
