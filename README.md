@@ -12,7 +12,7 @@
 VS Code devcontainer is configured and contains the following configuration:
 
   - uses Node.js 16.x in [docker-compose.yml]
-  - uses the [.env] file in the root of the project and global variables will be available in the environment
+  - uses the `.env` file in the root of the project and global variables will be available in the environment
   - installs the following packages globally by [Dockerfile]:
       - [@antfu/ni]
       - [pnpm]
