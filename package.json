@@ -1,0 +1,23 @@
+{
+  "name": "tic-tac-toe-monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@7.1.7",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.14.0"
+  },
+  "scripts": {
+    "lint:fix": "nr lint --fix",
+    "lint": "eslint .",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.25.1",
+    "eslint": "^8.17.0",
+    "typescript": "^4.7.3"
+  },
+  "eslintConfig": {
+    "extends": "@antfu"
+  }
+}
