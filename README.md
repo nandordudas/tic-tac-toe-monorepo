@@ -1,5 +1,7 @@
 # Tic Tac Toe
 
+[![Tests](https://github.com/nandordudas/tic-tac-toe-monorepo/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/nandordudas/tic-tac-toe-monorepo/actions/workflows/ci.yml)
+
 ### Table of Contents
 
   - [VS Code devcontainer]
