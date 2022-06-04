@@ -19,7 +19,7 @@ VS Code devcontainer is configured and contains the following configuration:
 How to use it:
 
   - install [Remote - Containers] extension, open command palette <kbd>Ctrl+Shift+P</kbd> or <kbd>F1</kbd> and select <kbd>Remote - Containers: Open Folder in Container...</kbd>
-  - we need to use <kbd>Rebuild and Reopen in Container</kbd> after each change in `.devcontainer` folder or [.env] file updates
+  - we need to use <kbd>Rebuild and Reopen in Container</kbd> after each change in `.devcontainer` folder or `.env` file updates
     - bottom left corner of the window, click on <kbd>Dev Container: Node.js & TypeScript</kbd> and select <kbd>Rebuild Container</kbd>
 
 ## Git commit message hooks
@@ -30,7 +30,6 @@ The [simple-git-hooks] package has been installed. Don't forget to run `npx simp
 
 [MIT]
 
-[.env]: ./.env
 [@antfu/ni]: https://github.com/antfu/ni
 [devcontainer.json]: ./.devcontainer/devcontainer.json
 [docker-compose.yml]: ./.devcontainer/docker-compose.yml
