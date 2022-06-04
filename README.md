@@ -12,7 +12,7 @@ VS Code devcontainer is configured and contains the following configuration:
   - uses Node.js 16.x in [docker-compose.yml]
   - uses the [.env] file in the root of the project and global variables will be available in the environment
   - installs the following packages globally by [Dockerfile]:
-      - [@antfu-ni]
+      - [@antfu/ni]
       - [pnpm]
   - uses [eslint] as code analysis tool, VS Code extensions and settings are configured in [devcontainer.json] for this
 
@@ -31,7 +31,7 @@ The [simple-git-hooks] package has been installed. Don't forget to run `npx simp
 [MIT]
 
 [.env]: ./.env
-[@antfu-ni]: https://github.com/antfu/ni
+[@antfu/ni]: https://github.com/antfu/ni
 [devcontainer.json]: ./.devcontainer/devcontainer.json
 [docker-compose.yml]: ./.devcontainer/docker-compose.yml
 [Dockerfile]: ./.devcontainer/Dockerfile
