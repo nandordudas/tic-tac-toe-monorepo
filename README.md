@@ -3,6 +3,7 @@
 ### Table of Contents
 
   - [VS Code devcontainer]
+  - [Git commit message hooks]
 
 ## VS Code devcontainer
 
@@ -21,7 +22,7 @@ How to use it:
   - we need to use <kbd>Rebuild and Reopen in Container</kbd> after each change in `.devcontainer` folder or [.env] file updates
     - bottom left corner of the window, click on <kbd>Dev Container: Node.js & TypeScript</kbd> and select <kbd>Rebuild Container</kbd>
 
-## [Git commit message hooks]
+## Git commit message hooks
 
 The [simple-git-hooks] package has been installed. Don't forget to run `npx simple-git-hooks`.
 
