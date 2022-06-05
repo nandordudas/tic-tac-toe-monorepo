@@ -7,7 +7,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "test": "vitest"
+    "test": "npx nuxt prepare && vitest"
   },
   "devDependencies": {
     "@nuxt/test-utils": "3.0.0-rc.3",
