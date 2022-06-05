@@ -8,6 +8,7 @@
     "node": ">=16.14.0"
   },
   "scripts": {
+    "dev": "pnpm -r dev",
     "lint:fix": "nr lint --fix",
     "lint": "eslint .",
     "test": "pnpm -r test"

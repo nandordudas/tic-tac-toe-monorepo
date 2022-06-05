@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
+    "dev": "echo Placeholder",
     "test": "echo ${PROJECT_NAME} @tic-tac-toe-monorepo/server"
   }
 }

@@ -3,6 +3,17 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "test": "echo ${PROJECT_NAME} @tic-tac-toe-monorepo/client"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "3.0.0-rc.3",
+    "@vue/test-utils": "^2.0.0",
+    "jsdom": "^19.0.0",
+    "nuxt": "3.0.0-rc.3",
+    "vitest": "^0.13.1"
   }
 }
