@@ -27,7 +27,7 @@
     "commit-msg": "pnpm exec esno scripts/verifyCommit.ts $1"
   },
   "lint-staged": {
-    "*": [
+    "packages/**/*.ts": [
       "eslint --fix"
     ]
   },
