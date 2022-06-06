@@ -9,7 +9,8 @@ RUN apt-get update
 ARG USER=node
 USER ${USER}
 
-RUN npm config set store-dir /home/${USER}/.pnpm-store
 RUN npm install -g \
   @antfu/ni \
   pnpm
+
+RUN pnpm config set store-dir /home/${USER}/.pnpm-store
