@@ -20,5 +20,5 @@
       }
     }
   },
-  "postCreateCommand": "pnpm i"
+  "postCreateCommand": "cp .env.example .env && pnpm i"
 }
